@@ -1,14 +1,22 @@
 [
  {
-   "remote": "lsd",
-   "repository": "android_kernel_lge_hammerhead",
+   "repository":  "SlimRoms/kernel_lge_hammerhead",
    "target_path": "kernel/lge/hammerhead",
-   "revision": "kitkat"
+   "branch":      "kk4.4"
  },
  {
-   "remote": "ls",
-   "repository": "proprietary_vendor_lge",
+   "repository":  "TheLoonyBin/proprietary_vendor_lge",
    "target_path": "vendor/lge",
-   "revision": "kitkat"
+   "branch":      "kk4.4"
+ },
+ {
+   "repository":  "TheLoonyBin/proprietary_vendor_qcom",
+   "target_path": "vendor/qcom",
+   "branch":      "kk4.4"
+ },
+ {
+   "repository":  "TheLoonyBin/proprietary_vendor_broadcom",
+   "target_path": "vendor/broadcom",
+   "branch":      "kk4.4"
  }
 ]
